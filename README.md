@@ -330,10 +330,19 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
 
 <div align="center">
 
-![AmrasElessar's GitHub stats](https://github-readme-stats.vercel.app/api?username=AmrasElessar&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&icon_color=00FF66&text_color=C9D1D9&include_all_commits=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AmrasElessar&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&text_color=C9D1D9&langs_count=8)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?color=00FF66&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/AmrasElessar?color=00FF66&label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=followers)
+[![Account Age](https://img.shields.io/badge/dynamic/json?color=00FF66&label=GitHub%20Since&query=%24.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar)
 
 ![Streak Stats](https://streak-stats.demolab.com?user=AmrasElessar&theme=dark&hide_border=true&background=0D1117&ring=00FF66&fire=00FF66&currStreakLabel=00FF66)
+
+<!--
+NOT: github-readme-stats.vercel.app servisi 503 rate-limit veriyor (Vercel free tier kısıtı).
+Geri gelince aşağıdaki widget'lar yeniden aktif edilebilir:
+
+![AmrasElessar's GitHub stats](https://github-readme-stats.vercel.app/api?username=AmrasElessar&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&icon_color=00FF66&text_color=C9D1D9&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AmrasElessar&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&text_color=C9D1D9&langs_count=8)
+-->
 
 </div>
 
