@@ -195,7 +195,7 @@ Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OB
 - 🚘 CAN bus + OBD-II Bluetooth telemetri (hız, RPM, yakıt, hata kodu)
 - 📻 8 MCU radyo backend (Microntek / TongSheng / XY Auto / Eonon / Junsun / RoadRover...)
 - 📞 Bluetooth: HFP / A2DP / AVRCP / PBAP / MAP
-- 🗺️ Google Maps + Waze + split-screen + overlay
+- 🗺️ Google Maps SDK navigasyon verisi (yön, mesafe, ETA, trafik)
 - ⚠️ Hız limiti uyarısı (ülke bazlı), road-type detection
 - 🎙️ Sesli komut entegrasyonu + TTS mesaj okuma
 - 🌍 25 dil + RTL desteği
