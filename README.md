@@ -8,6 +8,7 @@
 
 [![Email](https://img.shields.io/badge/Email-orhanenginokay%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:orhanenginokay@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AmrasElessar-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/AmrasElessar)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?logo=github-sponsors&style=flat-square)](https://github.com/sponsors/AmrasElessar)
 [![D-Terminal](https://img.shields.io/badge/Latest-D--Terminal_v0.9.5-00FF66?style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
 
 [![Profile views](https://komarev.com/ghpvc/?username=AmrasElessar&style=flat-square&color=00FF66&label=Profile+Views)](https://github.com/AmrasElessar)
@@ -377,6 +378,7 @@ That's why D Brand stands for **D**ata sovereignty · **D**evice-first · **D**i
 |---|---|
 | 📧 **Email** | [orhanenginokay@gmail.com](mailto:orhanenginokay@gmail.com) |
 | 💼 **GitHub** | [@AmrasElessar](https://github.com/AmrasElessar) |
+| 💝 **Sponsor** | [github.com/sponsors/AmrasElessar](https://github.com/sponsors/AmrasElessar) — D Brand'in sürdürülebilirliğine destek olun · Help sustain D Brand |
 | 🐛 **Bug reports** | İlgili projenin Issues sekmesi · Project's Issues tab |
 | 💡 **Collaboration** | E-posta ile ulaşın · Reach out via email |
 | ⭐ **Support** | İlgili projeye star atarak · Star the projects you like |
