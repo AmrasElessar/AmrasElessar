@@ -81,7 +81,9 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 
 ```diff
 + 🪟 D-Terminal v1.0 RC      → Microsoft Store submission, SignPath FOSS code signing
-+ 🛡️ D-Watchtower            → Android HIDS prototype geliştirme
++ 🛡️ D-Watchtower v1.0       → RC1 hazır, public release imminent (Android HIDS, 31 detection rule)
++ 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
++ 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + 8 head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
@@ -120,77 +122,83 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 </td>
 <td width="50%" valign="top">
 
-### 📄 [AdminPDFToolkit](https://github.com/AmrasElessar/adminpdftoolkit)
-**Offline PDF toolkit · 35+ tools**
+### 📄 [Admin PDF Toolkit](https://github.com/AmrasElessar/adminpdftoolkit) `v1.11.0`
+**LAN-first, offline PDF platform · 35+ tools · KVKK-compliant**
 
-Excel/Word/JPG/OCR convert, annotation/overlay/replace edit, web UI + PWA + Windows service. Tüm işlem yerel — tek byte ağa gitmez.
+Kurumsal ortam için tasarlandı: dosyalar makineden çıkmaz, ağ izinsiz hiçbir yere bağlanmaz. SignPath imzalı, ClamAV taramalı, AGPL-3.0 lisanslı.
 
 **Key Features:**
-- 🔄 35+ araç (convert, edit, OCR, annotation)
-- 💻 Web UI + PWA installable
-- 🪟 Windows service (background)
-- 🔒 100% offline — zero network calls
-- 📦 Excel / Word / JPG / OCR conversion
-- ✏️ Annotation, overlay, replace
-- 🆓 Free, open-source, ad-free
-- 🌐 Modern browser support
+- 🔄 35+ tool (convert, edit, OCR, annotation, security)
+- 🌍 Offline OCR (EasyOCR — TR + EN, internet yok)
+- 🔐 AES-256 encrypt/decrypt + signature detection
+- 🛡️ Multi-layer security scanner (ClamAV bundled + Defender)
+- 📦 PDF → Excel/Word/JPG/Phone-extract bulk
+- 💻 PWA + responsive + live progress (SSE)
+- 🪟 Windows service + Docker + LAN deploy
+- 🔏 SignPath Foundation imzalı + VirusTotal verified
 
-`Web UI` · `PWA` · `Windows Service`
+`Python 3.11` · `FastAPI` · `PyMuPDF` · `EasyOCR` · `PWA` · `AGPL-3.0`
 
+[![Release](https://img.shields.io/github/v/release/AmrasElessar/adminpdftoolkit?style=flat-square&color=00FF66)](https://github.com/AmrasElessar/adminpdftoolkit/releases)
 [![Stars](https://img.shields.io/github/stars/AmrasElessar/adminpdftoolkit?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/adminpdftoolkit/stargazers)
-[![Forks](https://img.shields.io/github/forks/AmrasElessar/adminpdftoolkit?style=flat-square&color=blue)](https://github.com/AmrasElessar/adminpdftoolkit/network/members)
+[![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat-square)](https://github.com/AmrasElessar/adminpdftoolkit/blob/main/LICENSE)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### 🛡️ D-Watchtower `Coming Soon`
-**Honest, local-first HIDS for Android**
+### 🛡️ D-Watchtower `v1.0.0-rc1`
+**Honest, local-first HIDS for Android · Public release imminent**
 
-Stalkerware detection, permission timeline, YARA scanning, VPN network monitor, panic mode. **Data never leaves your device.**
+"Antivirus değil, gözlemci" — cihazda neler olup bittiğini açıklamayla gösterir, kararı kullanıcıya bırakır. **Veri cihazdan çıkmaz.**
 
-- 🕵️ Stalkerware tespiti
-- 🕒 İzin değişiklik zaman çizelgesi
-- 🧬 YARA kural motoru
-- 🌐 VPN ağ trafiği monitörü
-- 🚨 Panic mode (one-tap wipe)
+- 🕵️ Stalkerware tespiti (Coalition Against Stalkerware ruleset)
+- 🧬 YARA scanner (libyara 4.5.5 + JNI) + 31 detection rule
+- 🕒 7-gün behavior baseline (ML on-device)
+- 🌐 Local VPN + DNS phishing/malware engelleme
+- 🚨 Panic mode: Hide / Wipe / Hybrid + sensor kill
+- 🌍 8 dil (TR master, EN/DE/AR/FA/FR/ES/RU)
 
-`Kotlin` · `Android` · `YARA` · `WireGuard`
+`Kotlin 2.0` · `Compose` · `Rust` · `C/JNI` · `GPL-3.0`
 
 </td>
 <td valign="top">
 
-### 🎵 D-Player `Coming Soon`
-**Local-first music player for Android**
+### 🎵 D-Player `💎 Premium · MVP`
+**Audiophile-grade Android music player · Powered by Denizhan DSP Engine**
 
-Cloud yok, hesap yok, reklam yok. Sadece müziğin, telefonun ve sen.
+Piyasa standartlarının üzerinde bir müzik deneyimi: native C++17 DSP, NEON SIMD FFT, 9 modlu equalizer-driven canlı duvar kâğıdı. Cloud yok, hesap yok, reklam yok.
 
-- 📁 Yerel kütüphane tarayıcı
-- 🎼 ID3 / FLAC / OGG metadata
-- 🎚️ Built-in equalizer + DSP
-- 🌗 Material You dynamic theming
-- 🚫 Reklam yok, telemetri yok
+- 🔊 **Denizhan DSP Engine** — 10-band parametrik EQ, kompressor, stereo widening, crossfeed, harmonik exciter, transient koruma
+- 🎨 **Equalizer Live Wallpaper** — 9 mod (LED_RETRO, ALBUM_RING, TERRAIN_3D...), adaptif FPS (8-60), battery-aware
+- 🎚️ Bluetooth codec-aware DSP (LDAC / aptX / AAC / SBC)
+- 🎤 Mic-based akustik kalibrasyon (oda akustiğine uyum)
+- 📱 Material You + Android Auto + 3 widget boyutu
+- 🎼 LRC senkron şarkı sözleri + MusicBrainz auto-enrichment
+- 🌍 17 dil
 
-`Kotlin` · `Android` · `Media3 ExoPlayer`
+`Kotlin 2.3` · `Compose` · `C++17 native` · `NEON SIMD` · `Media3` · `Premium`
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### 🚗 D-Car Launcher `Coming Soon`
-**Driver-first launcher for Android Auto era**
+### 🚗 D-Car Launcher `Alpha v1.0.0` · `🆓 Free`
+**Modern launcher for Android car head units · Driver-first**
 
-Direksiyondaki sürücü için tasarlanmış launcher: büyük dokunma alanları, sesli komut, dikkat dağıtmayan UI.
+Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OBD-II ile araç telemetrisi, 8 farklı head-unit MCU radyo backend desteği. Bedava — bağış kabul edilir 💝
 
-- 🖐️ Büyük dokunma hedefleri
-- 🗣️ Sesli komut entegrasyonu
-- 🎯 Dikkat dağıtmayan minimal UI
-- 🌗 Otomatik gece/gündüz modu
-- 🚙 Android Auto uyumlu
+- 🚘 CAN bus + OBD-II Bluetooth telemetri (hız, RPM, yakıt, hata kodu)
+- 📻 8 MCU radyo backend (Microntek / TongSheng / XY Auto / Eonon / Junsun / RoadRover...)
+- 📞 Bluetooth: HFP / A2DP / AVRCP / PBAP / MAP
+- 🗺️ Google Maps + Waze + split-screen + overlay
+- ⚠️ Hız limiti uyarısı (ülke bazlı), road-type detection
+- 🎙️ Sesli komut entegrasyonu + TTS mesaj okuma
+- 🌍 25 dil + RTL desteği
 
-`Kotlin` · `Android` · `Car UX` · `Voice`
+`Kotlin` · `React 19` · `TypeScript` · `C++17 native` · `Ktor WS` · `Free + Donations`
 
 </td>
 <td valign="top">
