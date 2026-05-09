@@ -85,7 +85,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 + 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
 + 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + 8 head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
-~ 📁 D-FTP Client            → planlama aşamasında, yakında portföye katılacak
+! 📁 D-FTP Client            → NEXT UP · Windows-only · MIT · yakında geliştirme başlıyor
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
 ```
@@ -227,19 +227,15 @@ D Brand'in AI-native felsefesinin canlı örneği. İsmi D ile başlamasa da D B
 <tr>
 <td valign="top">
 
-### 📁 D-FTP Client `Coming Soon`
-**Modern FTP / SFTP / FTPS client · D Brand standartlarında**
+### 📁 [D-FTP Client](https://github.com/AmrasElessar/d-ftp-client) `Coming Soon`
+**D Brand portföyüne yakında eklenecek bir Windows uygulaması**
 
-D Brand portföyüne yakında eklenecek dosya transfer istemcisi. Detaylı tanıtım sürüm yaklaşırken paylaşılacak.
+Geliştirme yakın zamanda başlayacak. Detaylar zamanla paylaşılacak — D Brand felsefesiyle: privacy-first, local-by-default, açık kaynak.
 
-- 🔐 SFTP / FTPS / FTP protokol desteği (planlı)
-- 📂 Çoklu sekme + drag-drop transfer
-- 🔑 Local-first kimlik bilgisi yönetimi (DPAPI / Keychain)
-- 📊 Transfer geçmişi + queue management
-- 🌍 TR + EN bilingual
-- 🚫 Telemetri yok, hesap zorunlu değil
+`🪟 Windows` · `📜 MIT` · `🆓 Free`
 
-`Stack TBA` · `Coming Soon`
+[![Status](https://img.shields.io/badge/Status-Coming_Soon-yellow?style=flat-square)](https://github.com/AmrasElessar/d-ftp-client)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AmrasElessar/d-ftp-client/blob/main/LICENSE)
 
 </td>
 <td valign="top">
@@ -263,10 +259,12 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
   │  2026 Q2  ●─── 🪟 D-Terminal v1.0 release                        │
+  │           │    📁 D-FTP Client geliştirme başlangıcı (next up!)   │
   │           │    📦 Microsoft Store submission                     │
   │           │    🔏 SignPath FOSS code signing                     │
   │           │                                                      │
   │  2026 Q3  ●─── 🛡️ D-Watchtower public beta (Android HIDS)        │
+  │           │    📁 D-FTP Client v1.0 alpha                         │
   │           │    🔌 D-Terminal v1.1: Wasm plugin marketplace       │
   │           │    🎨 D-Terminal theme designer                      │
   │           │                                                      │
