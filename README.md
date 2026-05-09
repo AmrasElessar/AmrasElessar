@@ -304,13 +304,24 @@ Yeni projeler için:
 
 ## 🧠 Why "D"?
 
-`D` tek bir harf değil, bir niyet:
-- **D**ata sovereignty — verinin sahibi sen ol
-- **D**evice-first — her şey cihazda
-- **D**irectly to user — kullanıcıya doğrudan
-- **D**emocratic software — herkesin erişebileceği
+`D` rastgele bir harf değil. **D Brand'in adı oğlum Denizhan'a ithafendir.** 💙
 
-Kısaca: kullanıcının yanında, kullanıcının yanlısı yazılım.
+Oğlumun adını yaptığım her şeye koymak — yazılımı daha kişisel, daha dikkatli ve daha dürüst yapma sözüm. Bir baba olarak başkasının çocuğunun da kullanacağı bir şeyi yarattığımı bilmek, her teknik kararımı şekillendiriyor.
+
+Bu yüzden D Brand'in dört temel prensibi:
+
+- 🛡️ **D**ata sovereignty — verinin sahibi sen ol
+- 📱 **D**evice-first — her şey cihazda
+- 🎯 **D**irectly to user — kullanıcıya doğrudan, aracısız
+- 🌍 **D**emocratic software — herkesin erişebileceği
+
+---
+
+`D` is not a random letter. **D Brand is named after my son, Denizhan.** 💙
+
+Putting his name on what I build is my promise to make software that's more personal, more careful, more honest. Knowing that someone else's child might one day use what I make — that shapes every technical decision I take.
+
+That's why D Brand stands for **D**ata sovereignty · **D**evice-first · **D**irectly to user · **D**emocratic software.
 
 ---
 
