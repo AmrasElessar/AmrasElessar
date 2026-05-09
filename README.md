@@ -178,7 +178,9 @@ Piyasa standartlarının üzerinde bir müzik deneyimi: native C++17 DSP, NEON S
 - 🎼 LRC senkron şarkı sözleri + MusicBrainz auto-enrichment
 - 🌍 17 dil
 
-`Kotlin 2.3` · `Compose` · `C++17 native` · `NEON SIMD` · `Media3` · `Premium`
+`Kotlin 2.3` · `Compose` · `C++17 native` · `NEON SIMD` · `Media3`
+
+> 💎 **Premium · Tek seferlik satın alma** · Abonelik yok · Reklam yok · Telemetri yok
 
 </td>
 </tr>
@@ -203,13 +205,19 @@ Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OB
 </td>
 <td valign="top">
 
-### 💡 More to come...
-D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cihazında, kullanıcının kontrolünde.**
+### ⚔️ Kael'in Kaderi `Alpha · WIP`
+**AI-adaptive Türkçe text RPG · 8 on-device AI module**
 
-Yeni projeler için:
-- 👀 [GitHub'ı takip edin](https://github.com/AmrasElessar)
-- 📧 [E-posta ile haberdar olun](mailto:orhanenginokay@gmail.com)
-- ⭐ Star atarak destek olun
+D Brand'in AI-native felsefesinin canlı örneği. İsmi D ile başlamasa da D Brand portföyünün bir parçası — RPG temasının gerektirdiği bir yaratıcı isim seçimi.
+
+- 🧠 **8 on-device AI modülü** — Game Master, NPC Emotion, Combat, Quest, Dialogue, Dungeon, Economy, Behavior (95 MB toplam, int4/int8 quantized)
+- 🎯 **AI-adaptive pacing** — oyun stilinizi profilleyip spawn rate, NPC tonu, ekonomi tempos
+- 🧊 **Frozen Core engine** — deterministic, seed-based, replay-uyumlu
+- 🛡️ **Guard-railed AI** — stat/damage/PvP power'a dokunamaz (code-enforced)
+- 📱 250 MB heap bütçesi, mobile-optimized
+- 🇹🇷 Türkçe text-based, 6 sınıf, 7 bölge
+
+`Vue 3` · `Capacitor` · `TensorFlow.js` · `TypeScript` · `Cross-platform`
 
 </td>
 </tr>
