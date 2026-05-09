@@ -85,6 +85,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 + 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
 + 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + 8 head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
+~ 📁 D-FTP Client            → planlama aşamasında, yakında portföye katılacak
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
 ```
@@ -195,12 +196,14 @@ Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OB
 - 🚘 CAN bus + OBD-II Bluetooth telemetri (hız, RPM, yakıt, hata kodu)
 - 📻 8 MCU radyo backend (Microntek / TongSheng / XY Auto / Eonon / Junsun / RoadRover...)
 - 📞 Bluetooth: HFP / A2DP / AVRCP / PBAP / MAP
-- 🗺️ Google Maps SDK navigasyon verisi (yön, mesafe, ETA, trafik)
+- 🗺️ Google Maps SDK harita gösterimi (read-only — navigasyon harici app)
 - ⚠️ Hız limiti uyarısı (ülke bazlı), road-type detection
 - 🎙️ Sesli komut entegrasyonu + TTS mesaj okuma
 - 🌍 25 dil + RTL desteği
 
 `Kotlin` · `React 19` · `TypeScript` · `C++17 native` · `Ktor WS` · `Free + Donations`
+
+> 💡 **Tasarım kararı:** Google Maps Navigation SDK ücretli tier'da. D-Car Launcher'ın bedava kalabilmesi için **harita-only** sunulur; sürücü navigasyon için kendi tercih ettiği uygulamayı paralel kullanır.
 
 </td>
 <td valign="top">
@@ -218,6 +221,35 @@ D Brand'in AI-native felsefesinin canlı örneği. İsmi D ile başlamasa da D B
 - 🇹🇷 Türkçe text-based, 6 sınıf, 7 bölge
 
 `Vue 3` · `Capacitor` · `TensorFlow.js` · `TypeScript` · `Cross-platform`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 📁 D-FTP Client `Coming Soon`
+**Modern FTP / SFTP / FTPS client · D Brand standartlarında**
+
+D Brand portföyüne yakında eklenecek dosya transfer istemcisi. Detaylı tanıtım sürüm yaklaşırken paylaşılacak.
+
+- 🔐 SFTP / FTPS / FTP protokol desteği (planlı)
+- 📂 Çoklu sekme + drag-drop transfer
+- 🔑 Local-first kimlik bilgisi yönetimi (DPAPI / Keychain)
+- 📊 Transfer geçmişi + queue management
+- 🌍 TR + EN bilingual
+- 🚫 Telemetri yok, hesap zorunlu değil
+
+`Stack TBA` · `Coming Soon`
+
+</td>
+<td valign="top">
+
+### 💡 More to come...
+D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cihazında, kullanıcının kontrolünde.**
+
+- 👀 [GitHub'ı takip edin](https://github.com/AmrasElessar)
+- 📧 [E-posta ile haberdar olun](mailto:orhanenginokay@gmail.com)
+- ⭐ Star atarak destek olun
 
 </td>
 </tr>
