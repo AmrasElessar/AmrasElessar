@@ -11,8 +11,6 @@
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?logo=github-sponsors&style=flat-square)](https://github.com/sponsors/AmrasElessar)
 [![D-Terminal](https://img.shields.io/badge/Latest-D--Terminal_v0.9.5-00FF66?style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
 
-[![Profile views](https://komarev.com/ghpvc/?username=AmrasElessar&style=flat-square&color=00FF66&label=Profile+Views)](https://github.com/AmrasElessar)
-
 </div>
 
 ---
@@ -84,7 +82,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 + 🪟 D-Terminal v1.0 RC      → Microsoft Store submission, SignPath FOSS code signing
 + 🛡️ D-Watchtower v1.0       → RC1 hazır, public release imminent (Android HIDS, 31 detection rule)
 + 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
-+ 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + 8 head-unit MCU backend
++ 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + çoklu head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
 ! 📁 D-FTP Client            → NEXT UP · Windows-only · MIT · yakında geliştirme başlıyor
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
@@ -108,7 +106,7 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 - 🎨 16 mono font built-in (Cascadia, JetBrains, Geist, ...)
 - 🤖 Anthropic + OpenAI + Gemini + Ollama (BYOK)
 - 🔐 Windows DPAPI secret storage
-- 📊 Live agent telemetry + git status overlay
+- 📊 Live agent activity + git status overlay
 - 🌍 TR + EN bilingual + i18n ready
 - 💎 D-Matrix code rain intro animation
 - 🚀 x64 + ARM64 native Windows
@@ -192,10 +190,10 @@ Piyasa standartlarının üzerinde bir müzik deneyimi: native C++17 DSP, NEON S
 ### 🚗 D-Car Launcher `Alpha v1.0.0` · `🆓 Free`
 **Modern launcher for Android car head units · Driver-first**
 
-Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OBD-II ile araç telemetrisi, 8 farklı head-unit MCU radyo backend desteği. Bedava — bağış kabul edilir 💝
+Araç multimedya üniteleri için tasarlanmış custom home screen. CAN bus + OBD-II ile araç telemetrisi, çoklu head-unit MCU radyo backend desteği. Bedava — bağış kabul edilir 💝
 
 - 🚘 CAN bus + OBD-II Bluetooth telemetri (hız, RPM, yakıt, hata kodu)
-- 📻 8 MCU radyo backend (Microntek / TongSheng / XY Auto / Eonon / Junsun / RoadRover...)
+- 📻 Çoklu MCU radyo backend (Microntek / TongSheng / XY Auto / Eonon / Junsun / RoadRover ve diğerleri)
 - 📞 Bluetooth: HFP / A2DP / AVRCP / PBAP / MAP
 - 🗺️ Google Maps SDK harita gösterimi (read-only — navigasyon harici app)
 - ⚠️ Hız limiti uyarısı (ülke bazlı), road-type detection
@@ -265,7 +263,7 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
   │           │    🔏 SignPath FOSS code signing                     │
   │           │                                                      │
   │  2026 Q3  ●─── 🛡️ D-Watchtower public beta (Android HIDS)        │
-  │           │    📁 D-FTP Client v1.0 alpha                         │
+  │           │    📁 D-FTP Client erken alpha                         │
   │           │    🔌 D-Terminal v1.1: Wasm plugin marketplace       │
   │           │    🎨 D-Terminal theme designer                      │
   │           │                                                      │
@@ -286,43 +284,7 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-**Languages**
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Frameworks & Libraries**
-
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black)
-
-**Storage & Data**
-
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=tokio&logoColor=white)
-
-**Quality & Testing**
-
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
-
-**Tools & Platforms**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-</div>
+`Rust` · `TypeScript` · `Kotlin` · `Python` · `C++17` · `Tauri 2` · `Vue 3` · `Compose` · `FastAPI` · `SQLite` · `Vitest` · `Playwright` · `GitHub Actions` · `Windows` · `Android`
 
 ---
 
@@ -333,26 +295,6 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
 [![Public Repos](https://img.shields.io/badge/dynamic/json?color=00FF66&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=repositories)
 [![Followers](https://img.shields.io/github/followers/AmrasElessar?color=00FF66&label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=followers)
 [![Account Age](https://img.shields.io/badge/dynamic/json?color=00FF66&label=GitHub%20Since&query=%24.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar)
-
-![Streak Stats](https://streak-stats.demolab.com?user=AmrasElessar&theme=dark&hide_border=true&background=0D1117&ring=00FF66&fire=00FF66&currStreakLabel=00FF66)
-
-<!--
-NOT: github-readme-stats.vercel.app servisi 503 rate-limit veriyor (Vercel free tier kısıtı).
-Geri gelince aşağıdaki widget'lar yeniden aktif edilebilir:
-
-![AmrasElessar's GitHub stats](https://github-readme-stats.vercel.app/api?username=AmrasElessar&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&icon_color=00FF66&text_color=C9D1D9&include_all_commits=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AmrasElessar&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF66&text_color=C9D1D9&langs_count=8)
--->
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=AmrasElessar&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)
 
 </div>
 
