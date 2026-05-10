@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-orhanenginokay%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:orhanenginokay@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AmrasElessar-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/AmrasElessar)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?logo=github-sponsors&style=flat-square)](https://github.com/sponsors/AmrasElessar)
-[![D-Terminal](https://img.shields.io/badge/Latest-D--Terminal_v0.9.5-00FF66?style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
+[![D-Terminal](https://img.shields.io/badge/Latest-D--Terminal_v0.9.5-33FF7A?style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
 
 </div>
 
@@ -114,8 +114,8 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 
 `Tauri 2` · `Vue 3` · `Rust` · `xterm.js` · `SQLite`
 
-[![Release](https://img.shields.io/github/v/release/AmrasElessar/d-terminal?style=flat-square&color=00FF66)](https://github.com/AmrasElessar/d-terminal/releases)
-[![Downloads](https://img.shields.io/github/downloads/AmrasElessar/d-terminal/total?style=flat-square&color=00FF66)](https://github.com/AmrasElessar/d-terminal/releases)
+[![Release](https://img.shields.io/github/v/release/AmrasElessar/d-terminal?style=flat-square&color=33FF7A)](https://github.com/AmrasElessar/d-terminal/releases)
+[![Downloads](https://img.shields.io/github/downloads/AmrasElessar/d-terminal/total?style=flat-square&color=33FF7A)](https://github.com/AmrasElessar/d-terminal/releases)
 [![Stars](https://img.shields.io/github/stars/AmrasElessar/d-terminal?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/d-terminal/stargazers)
 [![License](https://img.shields.io/github/license/AmrasElessar/d-terminal?style=flat-square&color=blue)](https://github.com/AmrasElessar/d-terminal/blob/main/LICENSE)
 
@@ -139,7 +139,7 @@ Kurumsal ortam için tasarlandı: dosyalar makineden çıkmaz, ağ izinsiz hiçb
 
 `Python 3.11` · `FastAPI` · `PyMuPDF` · `EasyOCR` · `PWA` · `AGPL-3.0`
 
-[![Release](https://img.shields.io/github/v/release/AmrasElessar/adminpdftoolkit?style=flat-square&color=00FF66)](https://github.com/AmrasElessar/adminpdftoolkit/releases)
+[![Release](https://img.shields.io/github/v/release/AmrasElessar/adminpdftoolkit?style=flat-square&color=33FF7A)](https://github.com/AmrasElessar/adminpdftoolkit/releases)
 [![Stars](https://img.shields.io/github/stars/AmrasElessar/adminpdftoolkit?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/adminpdftoolkit/stargazers)
 [![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat-square)](https://github.com/AmrasElessar/adminpdftoolkit/blob/main/LICENSE)
 
@@ -292,9 +292,9 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
 
 <div align="center">
 
-[![Public Repos](https://img.shields.io/badge/dynamic/json?color=00FF66&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=repositories)
-[![Followers](https://img.shields.io/github/followers/AmrasElessar?color=00FF66&label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=followers)
-[![Account Age](https://img.shields.io/badge/dynamic/json?color=00FF66&label=GitHub%20Since&query=%24.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?color=33FF7A&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/AmrasElessar?color=33FF7A&label=Followers&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar?tab=followers)
+[![Account Age](https://img.shields.io/badge/dynamic/json?color=33FF7A&label=GitHub%20Since&query=%24.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAmrasElessar&style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrasElessar)
 
 </div>
 
