@@ -85,7 +85,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 + 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
 + 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + çoklu head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
-! 📁 D-FTP Client            → NEXT UP · Windows-only · MIT · yakında geliştirme başlıyor
++ 📁 D-Transfer              → Pre-alpha aktif · Windows + Linux · GPL-3.0+ · SFTP/S3/WebDAV/Local
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
 ```
