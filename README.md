@@ -259,12 +259,12 @@ D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cih
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
   │  2026 Q2  ●─── 🪟 D-Terminal v1.0 release                        │
-  │           │    📁 D-FTP Client geliştirme başlangıcı (next up!)   │
+  │           │    📁 D-Transfer Pre-alpha · Windows + Linux         │
   │           │    📦 Microsoft Store submission                     │
   │           │    🔏 SignPath FOSS code signing                     │
   │           │                                                      │
   │  2026 Q3  ●─── 🛡️ D-Watchtower public beta (Android HIDS)        │
-  │           │    📁 D-FTP Client erken alpha                         │
+  │           │    📁 D-Transfer alpha → beta                        │
   │           │    🔌 D-Terminal v1.1: Wasm plugin marketplace       │
   │           │    🎨 D-Terminal theme designer                      │
   │           │                                                      │
