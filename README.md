@@ -271,6 +271,7 @@ Repo rezerve edildi; detaylar zamanla paylaşılacak. D Brand felsefesiyle: priv
   │           │    📁 D-Transfer alpha → beta                        │
   │           │    🔌 D-Terminal v1.1: Wasm plugin marketplace       │
   │           │    🎨 D-Terminal theme designer                      │
+  │           │    🩺 D-Medic erken planlama / repo setup           │
   │           │                                                      │
   │  2026 Q4  ●─── 🎵 D-Player v1.0 (Android local-first music)      │
   │           │    🌐 D-Terminal i18n: 8+ dil desteği                │
