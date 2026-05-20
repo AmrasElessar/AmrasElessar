@@ -9,7 +9,8 @@
 [![Email](https://img.shields.io/badge/Email-orhanenginokay%40gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:orhanenginokay@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AmrasElessar-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/AmrasElessar)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?logo=github-sponsors&style=flat-square)](https://github.com/sponsors/AmrasElessar)
-[![D-Terminal](https://img.shields.io/badge/Latest-D--Terminal_v0.9.5-33FF7A?style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
+[![D-Terminal](https://img.shields.io/github/v/release/AmrasElessar/d-terminal?label=D-Terminal&color=33FF7A&style=flat-square)](https://github.com/AmrasElessar/d-terminal/releases/latest)
+[![Admin PDF Toolkit](https://img.shields.io/github/v/release/AmrasElessar/adminpdftoolkit?label=Admin%20PDF%20Toolkit&color=33FF7A&style=flat-square)](https://github.com/AmrasElessar/adminpdftoolkit/releases/latest)
 
 </div>
 
@@ -97,7 +98,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 <tr>
 <td width="50%" valign="top">
 
-### 🪟 [D-Terminal](https://github.com/AmrasElessar/d-terminal) `v0.9.5`
+### 🪟 [D-Terminal](https://github.com/AmrasElessar/d-terminal)
 **Agent-aware Windows terminal**
 
 Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pane deneyimi + evrensel AI entegrasyonu, Windows'a native.
@@ -122,7 +123,7 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 </td>
 <td width="50%" valign="top">
 
-### 📄 [Admin PDF Toolkit](https://github.com/AmrasElessar/adminpdftoolkit) `v1.11.0`
+### 📄 [Admin PDF Toolkit](https://github.com/AmrasElessar/adminpdftoolkit)
 **LAN-first, offline PDF platform · 35+ tools · KVKK-compliant**
 
 Kurumsal ortam için tasarlandı: dosyalar makineden çıkmaz, ağ izinsiz hiçbir yere bağlanmaz. SignPath imzalı, ClamAV taramalı, AGPL-3.0 lisanslı.
@@ -226,15 +227,15 @@ D Brand'in AI-native felsefesinin canlı örneği. İsmi D ile başlamasa da D B
 <tr>
 <td valign="top">
 
-### 📁 [D-FTP Client](https://github.com/AmrasElessar/d-ftp-client) `Coming Soon`
-**D Brand portföyüne yakında eklenecek bir Windows uygulaması**
+### 📁 [D-Transfer](https://github.com/AmrasElessar/d-transfer) `Pre-Alpha`
+**Deterministic, crash-resilient file-transfer client**
 
-Geliştirme yakın zamanda başlayacak. Detaylar zamanla paylaşılacak — D Brand felsefesiyle: privacy-first, local-by-default, açık kaynak.
+SFTP / S3 / WebDAV / Local — hepsi tek bir Rust engine altında. Queue persistence, atomic finalization, OS-native credential vault. Tauri 2 + Vue 3 + Rust.
 
-`🪟 Windows` · `📜 MIT` · `🆓 Free`
+`🪟 Windows + 🐧 Linux` · `📜 GPL-3.0+` · `🆓 Free`
 
-[![Status](https://img.shields.io/badge/Status-Coming_Soon-yellow?style=flat-square)](https://github.com/AmrasElessar/d-ftp-client)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AmrasElessar/d-ftp-client/blob/main/LICENSE)
+[![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange?style=flat-square)](https://github.com/AmrasElessar/d-transfer)
+[![License](https://img.shields.io/github/license/AmrasElessar/d-transfer?style=flat-square&color=blue)](https://github.com/AmrasElessar/d-transfer/blob/main/LICENSE)
 
 </td>
 <td valign="top">
