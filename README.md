@@ -86,6 +86,7 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 + 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + çoklu head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
 + 📁 D-Transfer              → Pre-alpha aktif · Windows + Linux · GPL-3.0+ · SFTP/S3/WebDAV/Local
+! 🩺 D-Medic                → NEXT UP · repo rezerve edildi, detaylar yakında
 ~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
 ```
@@ -240,12 +241,15 @@ SFTP / S3 / WebDAV / Local — hepsi tek bir Rust engine altında. Queue persist
 </td>
 <td valign="top">
 
-### 💡 More to come...
-D Brand portföyü büyüyor. Her ürün aynı felsefeyle: **kullanıcının cihazında, kullanıcının kontrolünde.**
+### 🩺 [D-Medic](https://github.com/AmrasElessar/d-medic) `Coming Soon`
+**D Brand portföyüne yakında eklenecek**
 
-- 👀 [GitHub'ı takip edin](https://github.com/AmrasElessar)
-- 📧 [E-posta ile haberdar olun](mailto:orhanenginokay@gmail.com)
-- ⭐ Star atarak destek olun
+Repo rezerve edildi; detaylar zamanla paylaşılacak. D Brand felsefesiyle: privacy-first, local-by-default, kullanıcının cihazında kalan veri.
+
+`🆓 Free` · `📦 Repo reserved`
+
+[![Status](https://img.shields.io/badge/Status-Coming_Soon-yellow?style=flat-square)](https://github.com/AmrasElessar/d-medic)
+[![Stars](https://img.shields.io/github/stars/AmrasElessar/d-medic?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/d-medic/stargazers)
 
 </td>
 </tr>
