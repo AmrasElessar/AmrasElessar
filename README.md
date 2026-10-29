@@ -81,7 +81,8 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT, GPL-3.0 veya AGPL-3.0. R
 
 ```diff
 + 🪟 D-Terminal v0.12.0      → yayında · çok-ajanlı güvenlik + kararlılık denetimi kapatıldı
-+ 🛒 D-Terminal v1.0         → Microsoft Store submission (10/13 hazır), SignPath FOSS code signing
++ 🛒 D-Terminal v1.0         → Microsoft Store (MSIX) submission · 10/13 hazır · Store kendi sertifikasıyla imzalar
+~ 🔏 SignPath FOSS           → GitHub MSI / NSIS installer'ları için kod imzalama · başvuru beklemede
 + 📄 Admin PDF Toolkit v2.1  → yayında · HTTPS + LAN-only, Windows / macOS / Linux paketleri
 + 🩺 D-Medic v0.1            → Pre-alpha aktif · 30 tanılama + kaldırıcı + NTFS defrag motoru
 + 🛡️ D-Watchtower v1.0       → RC1 hazır, public release imminent (Android HIDS, 31 detection rule)
@@ -278,7 +279,7 @@ SFTP / S3 / WebDAV / Local — hepsi tek bir Rust engine altında. Queue persist
   │           │    🩺 D-Medic v0.1 iskelet (30 tanılama)             │
   │           │                                                      │
   │  Sırada   ●─── 🛒 D-Terminal v1.0 · Microsoft Store (MSIX)       │
-  │  (Next)   │    🔏 SignPath FOSS code signing                     │
+  │  (Next)   │    🔏 SignPath FOSS (GitHub MSI / NSIS imzalama)     │
   │           │    🛡️ D-Watchtower public beta (Android HIDS)        │
   │           │    🩺 D-Medic v0.5 → v1.0 ilk binary release         │
   │           │    📄 Admin PDF Toolkit: MSI kurulum, PAdES TSA      │
