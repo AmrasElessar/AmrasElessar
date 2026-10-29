@@ -67,9 +67,9 @@ AI agent'lar first-class citizen. Ama BYOK (bring your own key) — istediğin s
 <td valign="top">
 
 ### 📖 **Open Source Where Possible**
-Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-engineer etmek zorunda kalmazsın.
+Kod görülür, audit edilebilir, fork edilebilir. MIT, GPL-3.0 veya AGPL-3.0. Reverse-engineer etmek zorunda kalmazsın.
 
-*Code is visible, auditable, forkable. MIT or Apache 2.0. You don't need to reverse-engineer it.*
+*Code is visible, auditable, forkable. MIT, GPL-3.0 or AGPL-3.0. You don't need to reverse-engineer it.*
 
 </td>
 </tr>
@@ -80,14 +80,16 @@ Kod görülür, audit edilebilir, fork edilebilir. MIT veya Apache 2.0. Reverse-
 ## 🔥 Şu Anda · Currently Working On
 
 ```diff
-+ 🪟 D-Terminal v1.0 RC      → Microsoft Store submission, SignPath FOSS code signing
++ 🪟 D-Terminal v0.12.0      → yayında · çok-ajanlı güvenlik + kararlılık denetimi kapatıldı
++ 🛒 D-Terminal v1.0         → Microsoft Store submission (10/13 hazır), SignPath FOSS code signing
++ 📄 Admin PDF Toolkit v2.1  → yayında · HTTPS + LAN-only, Windows / macOS / Linux paketleri
++ 🩺 D-Medic v0.1            → Pre-alpha aktif · 30 tanılama + kaldırıcı + NTFS defrag motoru
 + 🛡️ D-Watchtower v1.0       → RC1 hazır, public release imminent (Android HIDS, 31 detection rule)
 + 🎵 D-Player MVP            → Denizhan DSP Engine + Equalizer Live Wallpaper (Premium app)
 + 🚗 D-Car Launcher v1.0     → Alpha aktif, CAN bus + çoklu head-unit MCU backend
 + 📚 D Brand documentation   → kullanıcı kılavuzları, ADR'lar, API referansları
 + 📁 D-Transfer              → Pre-alpha aktif · Windows + Linux · GPL-3.0+ · SFTP/S3/WebDAV/Local
-! 🩺 D-Medic                → NEXT UP · repo rezerve edildi, detaylar yakında
-~ 🎨 D-Terminal v1.1         → Wasm plugin marketplace, theme designer
+~ 🔌 D-Terminal v1.1         → gelişmiş SSH, free-form grid layout, Lua/JS config
 - 🍎 Cross-platform (macOS)  → kullanıcı talebi geldikçe değerlendirilecek
 ```
 
@@ -113,6 +115,7 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 - 💎 D-Matrix code rain intro animation
 - 🚀 x64 + ARM64 native Windows
 - 🔄 Auto-updater (minisign signed)
+- 🛡️ v0.12: SSRF / git / UNC sertleştirme, korumalı release imzalama
 
 `Tauri 2` · `Vue 3` · `Rust` · `xterm.js` · `SQLite`
 
@@ -124,22 +127,22 @@ Tek pencerede CMD, PowerShell, AI agent stream'leri ve özel pane'ler. Çoklu pa
 </td>
 <td width="50%" valign="top">
 
-### 📄 [Admin PDF Toolkit](https://github.com/AmrasElessar/adminpdftoolkit)
-**LAN-first, offline PDF platform · 35+ tools · KVKK-compliant**
+### 📄 [Admin PDF Toolkit](https://github.com/AmrasElessar/adminpdftoolkit) `v2.1.0`
+**Offline, LAN-first PDF platform · 50+ tools · KVKK-compliant**
 
-Kurumsal ortam için tasarlandı: dosyalar makineden çıkmaz, ağ izinsiz hiçbir yere bağlanmaz. SignPath imzalı, ClamAV taramalı, AGPL-3.0 lisanslı.
+Acrobat seviyesinde düzenleme, dosyalar makineden çıkmaz. Kurulum gerektirmeyen Windows / macOS / Linux paketleri, Docker, AGPL-3.0 lisanslı.
 
 **Key Features:**
-- 🔄 35+ tool (convert, edit, OCR, annotation, security)
-- 🌍 Offline OCR (EasyOCR — TR + EN, internet yok)
-- 🔐 AES-256 encrypt/decrypt + signature detection
-- 🛡️ Multi-layer security scanner (ClamAV bundled + Defender)
-- 📦 PDF → Excel/Word/JPG/Phone-extract bulk
-- 💻 PWA + responsive + live progress (SSE)
-- 🪟 Windows service + Docker + LAN deploy
-- 🔏 SignPath Foundation imzalı + VirusTotal verified
+- ✏️ PDF editörü — mevcut metni düzenle (taranmış belgelerde bile)
+- 🔍 Offline OCR (Tesseract — TR + EN, pakete gömülü)
+- ✍️ PAdES dijital imza + form oluşturma / doldurma
+- ⬛ KVKK modu — kişisel veri tara, kalıcı karart / maskele
+- 📚 PDF/A · PDF/UA · karşılaştırma · Office ↔ PDF
+- 🔐 HTTPS (yerel CA) + yalnızca yerel ağ + telefon eşleştirme (QR)
+- 🛡️ AES-256, ClamAV taraması, Ed25519 imzalı güncellemeler
+- 🦠 Her sürümde otomatik VirusTotal taraması
 
-`Python 3.11` · `FastAPI` · `PyMuPDF` · `EasyOCR` · `PWA` · `AGPL-3.0`
+`Python 3.11` · `FastAPI` · `PyMuPDF` · `Svelte 5` · `Tesseract` · `AGPL-3.0`
 
 [![Release](https://img.shields.io/github/v/release/AmrasElessar/adminpdftoolkit?style=flat-square&color=33FF7A)](https://github.com/AmrasElessar/adminpdftoolkit/releases)
 [![Stars](https://img.shields.io/github/stars/AmrasElessar/adminpdftoolkit?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/adminpdftoolkit/stargazers)
@@ -241,15 +244,22 @@ SFTP / S3 / WebDAV / Local — hepsi tek bir Rust engine altında. Queue persist
 </td>
 <td valign="top">
 
-### 🩺 [D-Medic](https://github.com/AmrasElessar/d-medic) `Coming Soon`
-**D Brand portföyüne yakında eklenecek**
+### 🩺 [D-Medic](https://github.com/AmrasElessar/d-medic) `Pre-Alpha · v0.1`
+**Diagnose-first Windows optimizer**
 
-Repo rezerve edildi; detaylar zamanla paylaşılacak. D Brand felsefesiyle: privacy-first, local-by-default, kullanıcının cihazında kalan veri.
+"Önce tanı, sonra tedavi" — kör optimizasyon yok. Sistemi tarar, her bulguyu önceliklendirir, tahmini kazanımı gösterir, **yalnızca onayınla** uygular. Tamamen offline.
 
-`🆓 Free` · `📦 Repo reserved`
+- 🩺 30 tanılama kontrolü (RAM/VBS, SMART, servisler, telemetri, BCD/EFI, TPM, SFC/DISM…)
+- 🗑️ Revo tarzı program kaldırıcı + kalıntı taraması (geri alınabilir)
+- 🧩 Özel NTFS defrag motoru + canlı cluster haritası (SSD'de devre dışı)
+- ↩️ 3 katmanlı rollback (System Restore + `reg export` + servis snapshot)
+- 📚 21 kılavuz — Microsoft Learn kaynaklı
 
-[![Status](https://img.shields.io/badge/Status-Coming_Soon-yellow?style=flat-square)](https://github.com/AmrasElessar/d-medic)
+`Tauri 2` · `Rust` · `Vue 3` · `WMI (windows-rs)` · `🪟 Windows 11` · `MIT`
+
+[![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange?style=flat-square)](https://github.com/AmrasElessar/d-medic)
 [![Stars](https://img.shields.io/github/stars/AmrasElessar/d-medic?style=flat-square&color=FFD700)](https://github.com/AmrasElessar/d-medic/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AmrasElessar/d-medic/blob/main/LICENSE)
 
 </td>
 </tr>
@@ -262,24 +272,21 @@ Repo rezerve edildi; detaylar zamanla paylaşılacak. D Brand felsefesiyle: priv
 ```
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
-  │  2026 Q2  ●─── 🪟 D-Terminal v1.0 release                        │
+  │  2026 ✅  ●─── 🪟 D-Terminal v0.10 → v0.12 (güvenlik denetimi)   │
+  │           │    📄 Admin PDF Toolkit v2.x (Win / macOS / Linux)   │
   │           │    📁 D-Transfer Pre-alpha · Windows + Linux         │
-  │           │    📦 Microsoft Store submission                     │
-  │           │    🔏 SignPath FOSS code signing                     │
+  │           │    🩺 D-Medic v0.1 iskelet (30 tanılama)             │
   │           │                                                      │
-  │  2026 Q3  ●─── 🛡️ D-Watchtower public beta (Android HIDS)        │
-  │           │    📁 D-Transfer alpha → beta                        │
-  │           │    🔌 D-Terminal v1.1: Wasm plugin marketplace       │
-  │           │    🎨 D-Terminal theme designer                      │
-  │           │    🩺 D-Medic erken planlama / repo setup           │
+  │  Sırada   ●─── 🛒 D-Terminal v1.0 · Microsoft Store (MSIX)       │
+  │  (Next)   │    🔏 SignPath FOSS code signing                     │
+  │           │    🛡️ D-Watchtower public beta (Android HIDS)        │
+  │           │    🩺 D-Medic v0.5 → v1.0 ilk binary release         │
+  │           │    📄 Admin PDF Toolkit: MSI kurulum, PAdES TSA      │
   │           │                                                      │
-  │  2026 Q4  ●─── 🎵 D-Player v1.0 (Android local-first music)      │
-  │           │    🌐 D-Terminal i18n: 8+ dil desteği                │
-  │           │    📊 D-Watchtower YARA rule marketplace             │
-  │           │                                                      │
-  │  2027 Q1  ●─── 🚗 D-Car Launcher v1.0 (Android Auto)             │
+  │  Sonra    ●─── 🎵 D-Player v1.0 (Android local-first music)      │
+  │  (Later)  │    🔌 D-Terminal v1.1: gelişmiş SSH, grid layout     │
+  │           │    🚗 D-Car Launcher v1.0 (Android Auto)             │
   │           │    🍎 Cross-platform exploration (talep gelirse)     │
-  │           │    💼 D Brand sustainability (sponsorships)          │
   │                                                                  │
   └──────────────────────────────────────────────────────────────────┘
 ```
@@ -290,7 +297,7 @@ Repo rezerve edildi; detaylar zamanla paylaşılacak. D Brand felsefesiyle: priv
 
 ## 🛠️ Tech Stack
 
-`Rust` · `TypeScript` · `Kotlin` · `Python` · `C++17` · `Tauri 2` · `Vue 3` · `Compose` · `FastAPI` · `SQLite` · `Vitest` · `Playwright` · `GitHub Actions` · `Windows` · `Android`
+`Rust` · `TypeScript` · `Kotlin` · `Python` · `C++17` · `Tauri 2` · `Vue 3` · `Svelte 5` · `Compose` · `FastAPI` · `SQLite` · `Vitest` · `Playwright` · `GitHub Actions` · `Windows` · `Android`
 
 ---
 
